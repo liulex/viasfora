@@ -9,7 +9,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.Rainbow1)]
   [Name(Rainbows.Rainbow1)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class Rainbow1Format : ClassificationFormatDefinition {
     public Rainbow1Format() {
       this.DisplayName = "Viasfora Rainbow Brace 1";
@@ -20,7 +20,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.Rainbow2)]
   [Name(Rainbows.Rainbow2)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class Rainbow2Format : ClassificationFormatDefinition {
     public Rainbow2Format() {
       this.DisplayName = "Viasfora Rainbow Brace 2";
@@ -31,7 +31,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.Rainbow3)]
   [Name(Rainbows.Rainbow3)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class Rainbow3Format : ClassificationFormatDefinition {
     public Rainbow3Format() {
       this.DisplayName = "Viasfora Rainbow Brace 3";
@@ -42,7 +42,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.Rainbow4)]
   [Name(Rainbows.Rainbow4)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class Rainbow4Format : ClassificationFormatDefinition {
     public Rainbow4Format() {
       this.DisplayName = "Viasfora Rainbow Brace 4";
@@ -53,7 +53,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.Rainbow5)]
   [Name(Rainbows.Rainbow5)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class Rainbow5Format : ClassificationFormatDefinition {
     public Rainbow5Format() {
       this.DisplayName = "Viasfora Rainbow Brace 5";
@@ -64,7 +64,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.Rainbow6)]
   [Name(Rainbows.Rainbow6)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class Rainbow6Format : ClassificationFormatDefinition {
     public Rainbow6Format() {
       this.DisplayName = "Viasfora Rainbow Brace 6";
@@ -75,7 +75,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.Rainbow7)]
   [Name(Rainbows.Rainbow7)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class Rainbow7Format : ClassificationFormatDefinition {
     public Rainbow7Format() {
       this.DisplayName = "Viasfora Rainbow Brace 7";
@@ -86,7 +86,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.Rainbow8)]
   [Name(Rainbows.Rainbow8)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class Rainbow8Format : ClassificationFormatDefinition {
     public Rainbow8Format() {
       this.DisplayName = "Viasfora Rainbow Brace 8";
@@ -97,7 +97,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.Rainbow9)]
   [Name(Rainbows.Rainbow9)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class Rainbow9Format : ClassificationFormatDefinition {
     public Rainbow9Format() {
       this.DisplayName = "Viasfora Rainbow Brace 9";
@@ -109,7 +109,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.TipHilight)]
   [Name(Rainbows.TipHilight)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class RainbowTipHighlightFormat : EditorFormatDefinition {
     public RainbowTipHighlightFormat() {
       this.DisplayName = "Viasfora Rainbow Tip Highlight";
@@ -122,7 +122,7 @@ namespace Winterdom.Viasfora.Rainbow.EditorFormats {
   [ClassificationType(ClassificationTypeNames = Rainbows.RainbowError)]
   [Name(Rainbows.RainbowError)]
   [UserVisible(true)]
-  [Order(After = Priority.High)]
+  [Order(After = Priority.Low)]
   public sealed class RainbowErrorFormat : ClassificationFormatDefinition {
     public RainbowErrorFormat() {
       this.DisplayName = "Viasfora Rainbow Brace Error";
